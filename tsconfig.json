@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "target": "es5",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "paths": {
+      "@angular/*": ["./lib/@angular/*"],
+      "angular2/core": ["./lib/angular2/angular2.dev.js"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
