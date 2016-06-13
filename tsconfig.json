@@ -1,18 +1,19 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "module": "commonjs",
     "target": "es5",
+    "module": "commonjs",
     "moduleResolution": "node",
+    "sourceMap": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "noImplicitAny": false,
-    "sourceMap": false,
-    "paths": {
-      "@angular/*": ["./lib/@angular/*"],
-      "angular2/core": ["./lib/angular2/angular2.dev.js"]
-    }
+    "removeComments": false,
+    "noImplicitAny": false
   },
+  "files": [
+    "./states-demo/app/main.ts",
+    "./typings/es6-collections.d.ts",
+    "./typings/es6-promise.d.ts"
+  ],
   "exclude": [
     "node_modules"
   ]
